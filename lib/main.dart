@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Material App Bar'),
+          title: Text('Bienvenidos'),
         ),
         body: Center(
           // ignore: avoid_unnecessary_containers
