@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      debugShowCheckedModeBanner: false,
+      title: 'Derechos Humanos',
       home: Scaffold(
         appBar: AppBar(
           title: Text('Bienvenidos'),
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           // ignore: avoid_unnecessary_containers
           child: Container(
-            child: Text('Hello World'),
+            child: Text('Hola Mundo'),
           ),
         ),
       ),
