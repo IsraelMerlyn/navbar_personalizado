@@ -19,15 +19,7 @@ class MyApp extends StatelessWidget {
     //
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: Color(0xff2c2b50),
-        primaryColorDark: Color(0xff050028),
-        primaryColorLight: Color(0xff57547c),
-        //
-        //accentColor: Color(0xffedecee),
-        //   colorScheme: Color(Colors.black12),
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+
       home: MyHomePages(),
       //title: 'Derechos Humanos',
 

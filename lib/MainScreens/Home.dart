@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:navbar_personalizado/MainScreens/Menu_Home.dart';
+import 'package:navbar_personalizado/Utils/Menu_Lateral.dart';
 
 class HomeScreens extends StatefulWidget {
   HomeScreens({Key? key}) : super(key: key);
@@ -18,13 +20,20 @@ class _HomeScreensState extends State<HomeScreens> {
           _CrearFondo(context),
         ],
       ),
+      appBar: AppBar(),
+      drawer: MenuHome(),
     );
+
     // return Scaffold(
     //   appBar: AppBar(),
     //   body: Center(),
     // );
   }
 }
+
+final MenuL = SafeArea(
+  child: Scaffold(),
+);
 
 Widget _CrearFondo(BuildContext context) {
   //DECLARAMOS EL MEDIAQUERY PARA OBTENER EL PORCENTAJE DEL FONDO(CONTENEDOR) A ANADIR
